@@ -47,6 +47,9 @@ function NavContent({ route, navigate, onReset, onClose }) {
           <RotateCcw className="h-3.5 w-3.5" aria-hidden /> Reset demo data
         </button>
       </div>
+      <p className="mt-4 text-center text-xs text-muted-foreground">
+        Designed &amp; developed by <span className="font-semibold text-foreground">Fatiha Ansari</span>
+      </p>
     </div>
   );
 }

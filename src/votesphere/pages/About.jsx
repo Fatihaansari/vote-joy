@@ -29,6 +29,10 @@ export default function About() {
           <Github className="h-5 w-5" aria-hidden /> Built with
         </h2>
         React · Vite · Tailwind CSS · Lucide icons
+        <p className="mt-4 border-t border-border pt-4">
+          VoteSphere is designed and developed by <strong className="text-foreground">Fatiha Ansari</strong>.
+          © {new Date().getFullYear()} Fatiha Ansari. All rights reserved.
+        </p>
       </section>
     </div>
   );
